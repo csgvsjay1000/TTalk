@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/feng/study/chat_04/src/base/netlib.cpp
+netlib.h
+/home/feng/study/chat_04/src/base/netlib.h
+
+/home/feng/study/chat_04/src/base/netlib.h
+ostype.h
+/home/feng/study/chat_04/src/base/ostype.h
+
+/home/feng/study/chat_04/src/base/ostype.h
+sys/epoll.h
+-
+pthread.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netinet/tcp.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+errno.h
+-
+unistd.h
+-
+stdint.h
+-
+signal.h
+-
+stdio.h
+-
+stdexcept
+-
+

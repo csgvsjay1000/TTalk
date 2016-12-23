@@ -1,0 +1,2 @@
+/usr/bin/ar cr libbase.a  CMakeFiles/base.dir/netlib.cpp.o
+/usr/bin/ranlib libbase.a
