@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/login_server.dir/login_server.cpp.o  -o login_server -rdynamic 
