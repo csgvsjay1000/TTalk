@@ -41,6 +41,12 @@ signal.h
 -
 stdio.h
 -
+fcntl.h
+-
+string.h
+-
+time.h
+-
 stdexcept
 -
 

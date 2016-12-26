@@ -14,9 +14,18 @@
 #include <stdint.h>
 #include <signal.h>
 #include <stdio.h>
+#include <fcntl.h>
+#include <string.h>
+#include <time.h>
+
 #define closesocket close
+
 
 #include <stdexcept>
 
+typedef int SOCKET;
+
+
+typedef void (*callback_t)(void *callback_data,uint8_t msg,uint32_t handle,void *pParam);
 
 #endif

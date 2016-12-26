@@ -39,6 +39,7 @@ build(){
 
 	cp login_server/login_server ../run/login_server
 
+	cp tools/daeml ../run/
 }
 
 print_help(){
